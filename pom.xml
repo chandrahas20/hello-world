@@ -206,6 +206,23 @@
     </dependencies>
   </dependencyManagement>
 
+
+          <distributionManagement>
+
+            <repository>
+              <id>nexus</id>
+              <name>Mithun Technologies Releases Nexus Repository</name>
+              <url>http://13.212.118.244:8081/repository/facebook-release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>Mithun Technologies Snapshot Nexus Repository </name>
+              <url>http://13.212.118.244:8081/repository/facebook-snapshot/</url>
+            </snapshotRepository>
+
+        </distributionManagement>
+
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
